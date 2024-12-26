@@ -1,3 +1,3 @@
-# project1
-Eastern Essence site
-Nikolaev Igor KA-21
+Лабораторні 2-3
+Eastern Essence сайт
+Ніколаєв Ігор KA-21
