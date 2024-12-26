@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eastern Essence - Profile</title>
+    <link rel="stylesheet" href="../styles/profile.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Eastern Essence</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../main.html">Home</a></li>
+            <li><a href="../parts/shopcart.html">Cart</a></li>
+            <li><a href="../parts/orders.html">Orders</a></li>
+            <li><a href="../parts/profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 class="centered">Your Profile</h2>
+        <div class="profile">
+            <div class="profile-details">
+                <h3 class="secondary-color">Profile Information</h3>
+                <p><strong>Name:</strong> Igor Nikolaev</p>
+                <p><strong>Email:</strong> nikolaev.igor@lll.kpi.ua</p>
+                <p><strong>Phone:</strong> (067) 772-6680</p>
+            </div>
+
+            <div id="login-form" style="display: block;">
+                <h3 class="secondary-color">Login</h3>
+                <form action="/login" method="POST">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required><br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Eastern Essence. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

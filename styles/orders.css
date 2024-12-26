@@ -1,0 +1,33 @@
+.orders {
+    padding: 2rem;
+    text-align: center;
+}
+
+.order {
+    background-color: #ffffff;
+    border: 1px solid #d23c3e;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.order h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.order p {
+    color: #2c2c2c;
+}
+
+.secondary-color {
+    color: #f0a83c;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #2c2c2c;
+    color: white;
+    padding: 10px 0;
+}
